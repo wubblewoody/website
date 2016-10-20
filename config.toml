@@ -1,0 +1,119 @@
+baseurl = "http://www.bramvandersanden.com/"
+title = "Bram van der Sanden"
+copyright = "&copy; 2016 Bram van der Sanden"
+languageCode = "en-us"
+theme = "academic"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = "bramvandersanden"
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+[permalinks]
+    post = "/post/:year/:month/:filename/"
+
+[params]
+  name = "Bram van der Sanden"
+  role = "PhD Candidate"
+  organization = "Eindhoven University of Technology"
+  avatar = "portrait.jpg"
+  email = "bram AT bramvandersanden.com"
+  address = "Flux 3.079, Eindhoven University of Technology, 5600 MB Eindhoven"
+  phone = ""
+
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase = ""
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Mon, Jan 2, 2006"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math = false
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = []
+  custom_js  = []
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:bram AT bramvandersanden.com"
+
+  [[params.social]]
+    icon = "university"
+    icon_pack = "fa"
+    link = "https://www.tue.nl/universiteit/faculteiten/electrical-engineering/faculteit/medewerkers/detail/ep/e/d/ep-uid/20086494/ep-tab/4/"
+
+  [[params.social]]
+    icon = "linkedin-square"
+    icon_pack = "fa"
+    link = "//linkedin.com/bramvdsanden"
+
+  [[params.social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.nl/citations?user=aW-NrHgAAAAJ"
+
+#  [[params.social]]
+#    icon = "github"
+#    icon_pack = "fa"
+#   link = "//github.com/wubblewoody"
+
+
+# Navigation Links
+#   The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Home"
+  url = "#top"
+  weight = 1
+
+[[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 2
+
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
+
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
+
+#[[menu.main]]
+#  name = "Teaching"
+#  url = "#teaching"
+#  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
