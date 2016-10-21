@@ -8,7 +8,7 @@ theme = "academic"
 disqusShortname = "bramvandersanden"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-52366034-1"
 
 [permalinks]
     post = "/post/:year/:month/:filename/"
@@ -72,7 +72,7 @@ googleAnalytics = ""
   [[params.social]]
     icon = "linkedin-square"
     icon_pack = "fa"
-    link = "//linkedin.com/bramvdsanden"
+    link = "https://nl.linkedin.com/in/bramvdsanden"
 
   [[params.social]]
     icon = "google-scholar"
@@ -80,8 +80,8 @@ googleAnalytics = ""
     link = "https://scholar.google.nl/citations?user=aW-NrHgAAAAJ"
 
 #  [[params.social]]
-#    icon = "github"
-#    icon_pack = "fa"
+#   icon = "github"
+#   icon_pack = "fa"
 #   link = "//github.com/wubblewoody"
 
 
